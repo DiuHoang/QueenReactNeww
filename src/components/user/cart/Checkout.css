@@ -1,0 +1,159 @@
+.strong-titleCheck {
+    margin-left: 15px;
+    font-size: 17px;
+  }
+  
+  .product-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-left: -160px;
+  }
+  
+  .flexKhung {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 600px;
+    max-width: 100%;
+  }
+  
+  .imageCheck {
+    width: 110px;
+    height: 70px;
+  }
+  
+  .wrapper {
+    margin-top: 40px;
+    width: 1600px;
+    margin-left: 120px;
+  }
+  
+  .form-input-checkout {
+    width: 540px;
+    height: 35px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 15px;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  .container {
+    border: none;
+  }
+  
+  .btn-Checkout {
+    border-radius: 20px;
+    color: black;
+    background-image: linear-gradient(130deg, #eb673c 0%, #ac7664 100%);
+    width: 100px;
+    border-color: #eb673c;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 450px;
+  }
+  
+  .btn-Checkout:hover {
+    background-color: #eb673c;
+    color: white;
+  }
+  
+  .khungInfo {
+    border-color: #eaa28b;
+    width: 600px;
+    height: auto;
+    border: ridge;
+    max-width: 100%;
+    margin-left: 40px;
+  }
+  
+  .panel-info {
+    width: 600px;
+  }
+  
+  .panel-heading1 {
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    background-image: linear-gradient(130deg, #eb673c 0%, #ca9b55 100%);
+    height: 40px;
+    width: 597px;
+  }
+  
+  .title-Checkout {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .hr-payment {
+    border-color: #999 -moz-use-text-color -moz-use-text-color;
+    width: 590px;
+    margin-top: 10px;
+  }
+  
+  .product-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: 20px;
+  }
+  .button-delete {
+    border: none;
+  }
+  @media only screen and (max-width: 500px) {
+    .khungInfo {
+      width: 78%;
+      margin-top: 10px;
+      border: none;
+      border-color: white;
+      margin-left: -65px;
+      background-color: white;
+    }
+    .product-flex {
+      width: 2px;
+    }
+    .imageCheck {
+      width: 100px;
+      height: 70px;
+    }
+    .strong-titleCheck {
+      font-size: 16px;
+    }
+    .hr-payment {
+      width: 250px;
+      margin-left: 20px;
+    }
+    .panel-heading1 {
+      width: 295px;
+      margin-top: 1px;
+    }
+    .form-input-checkout {
+      width: 240px;
+    }
+    .panel-info {
+      width: 300px;
+      height: 600px;
+      background-color: #ededed;
+      border: ridge;
+    }
+    .btn-Checkout {
+      margin-left: 80px;
+    }
+    .btn-Checkout:hover {
+      background-image: linear-gradient(130deg, #eb673c 0%, #ac7664 100%);
+      color: white;
+    }
+    .title-Checkout {
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+@media only screen and (max-width: 500px) {
+  html{
+    width: 100%;
+    font-size: 16px;
+  }
+  .detaillFood{
+    width: 60%;
+   
+    margin-top: 3%;
+  }
+  .detail_order{
+    border: 1px solid #8a8a8a;
+    width: 400px;
+    height: 530px;
+    line-height: 1px;
+    border-radius: 10%;
+    margin-left: 2%;
+  }
+  .detail_order hr{
+    display: none;
+  }
+  .detail_order h1{
+    margin-left: 2%;
+  }
+  .detail_order_name{
+
+    width: 800px;
+    margin-left: 2%;
+    margin-top: 50px;
+    font-size: 1rem;
+  }
+  .detail-content{
+    margin-left: 5%;
+  }
+  .dat button{
+    border-radius: 20px;
+    background-color:#eaa28b ;
+    color: white;
+    width: 80px;
+    font-size: 17px;
+    height: 40px;
+    margin-left: 77%;
+    border: none;
+    margin-top: 2%;
+    border-bottom: #8a8a8a;
+  }
+  .left_dm{
+    display: none;
+  }
+
+  
+}

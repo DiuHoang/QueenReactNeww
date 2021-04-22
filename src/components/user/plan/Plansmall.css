@@ -1,0 +1,120 @@
+@media only screen and (max-width: 500px) {
+  .khungPlan {
+    margin-top: 30px;
+    
+    font-size: 1rem;
+  }
+  .khungPlan textarea{
+    width: 82%;
+  }
+  .food{
+    margin-left: 2%;
+  }
+  .vendorplan{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 15px;
+  }
+  .vendorplan img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  .vendorplan h4{
+    margin-top: 25px;
+    margin-left: 12px;
+  }
+  .form-input-plan {
+    width: 500px;
+    height: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-left: 15px;
+  }
+  
+  .btn-Food {
+    background: #70bda1;
+    color: white;
+    border-color: #70bda1;
+    width: 270px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .btn-Speaker {
+    background: #ca81bf;
+    color: white;
+    border-color: #ca81bf;
+    width: 270px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .btn-Cake {
+    background: #ED1C24;
+    color: white;
+    border-color: #ED1C24;
+    width: 270px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .btn-Deco {
+    background: #c5c291;
+    color: white;
+    border-color: #c5c291;
+    width: 270px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .btn-Plan {
+    background: #eaa28b;
+    color: white;
+    border-color: #eaa28b;
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+    font-size: 18px;
+  }
+  
+  .flex-Plan {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .img-plan {
+    width: 100px;
+    height: 80px;
+  }
+  
+  .flex-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+  .speaker{
+    margin-left: 2%;
+  }
+  .cake{
+    margin-left: 2%;
+  }
+  .deco{
+    margin-left: 2%;
+  }
+}

@@ -1,0 +1,36 @@
+@media only screen and (max-width: 500px) {
+  .menudm{
+    display: none;
+  }
+  .restaurant{
+    border: #e1e1e1 solid 1px;
+    width: 600px;
+    height: 105px;
+    font-size: 1rem;
+    
+  }
+  .restaurant img{
+    width: 110px;
+    height: 95px;
+  }
+  .freeship{
+    margin-left: 20px;
+  }
+  .freeship button{
+    border: none;
+    width: 150px;
+    margin: 1.5px;
+    border-bottom: 1px solid #4fa4ff;
+  }
+  .freeship i{
+    color: #28a745;
+  }
+  .danhgia{
+    background-color: #eaa28b;
+  }
+  .nameRestaurant{
+    margin-left: 6px;
+    font-size: 0.9rem;
+    line-height: 1px;
+  }
+}

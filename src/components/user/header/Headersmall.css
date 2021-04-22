@@ -1,0 +1,163 @@
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 16px;
+  }
+  .small {
+    display: flex;
+  }
+  .input-Search {
+    height: 20px;
+  }
+  .btsearch {
+    height: 25px;
+  }
+  .navi img {
+    display: none;
+  }
+  .header {
+    flex-wrap: wrap;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    font-size: medium;
+  }
+  .nameWeb {
+    display: none;
+  }
+  .dn {
+    display: none;
+  }
+
+  .nameWeb li:nth-child(2) {
+    margin-left: 20px;
+    letter-spacing: 1px;
+  }
+
+  .nameWeb li a {
+    color: white;
+  }
+  .right_contain {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7rem;
+  }
+
+  .right_contain .icon {
+    padding: 0px 10px;
+    border-right: 1px solid rgb(230, 230, 230);
+  }
+
+  .icon {
+    color: white;
+  }
+  .icon .fa {
+    padding: 0px 10px;
+    color: rgb(230, 230, 230);
+  }
+  .icon-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .user {
+    margin-left: 30px;
+    color: white;
+  }
+
+  .user a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+  }
+
+  .user span {
+    color: rgb(230, 230, 230);
+  }
+  .fas fa-search {
+    margin-top: 4px;
+  }
+  .navi {
+    font-size: medium;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.5s;
+    background-color: rgb(233, 233, 233, 0.8);
+    height: 100px;
+  }
+  .navi img {
+    width: 65px;
+    height: 65px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .flex2 {
+    display: flex;
+    padding: 20px;
+  }
+  .navi input {
+    width: 200px;
+  }
+  .navi ul {
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    padding-top: 25px;
+    margin-top: -25px;
+  }
+
+  .navi ul li {
+    position: relative;
+    list-style: none;
+  }
+
+  .navi ul li a {
+    position: relative;
+
+    color: rgb(38, 38, 38);
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1rem;
+  }
+  .navi li a {
+    margin-left: -2px;
+    padding: 4px;
+  }
+  .navi ul li:nth-child(1) {
+    border-right: 1px solid rgba(32, 32, 32, 0.5);
+  }
+
+  .navi ul li:nth-child(2) {
+    border-right: 1px solid rgba(32, 32, 32, 0.5);
+  }
+
+  .navi ul li:nth-child(3) {
+    border-right: 1px solid rgba(32, 32, 32, 0.5);
+  }
+
+  .navi ul li:nth-child(4) {
+    border-right: 1px solid rgba(32, 32, 32, 0.5);
+  }
+  .search_form a {
+    position: absolute;
+    top: 45px;
+    right: 780px;
+    color: #4c5667;
+  }
+  .bt_search {
+    margin-top: 4px;
+    margin-left: 5px;
+  }
+  .md-Form mt-0 {
+    display: flex;
+  }
+  .main_contain {
+    margin-top: 20px;
+  }
+  .dnhap {
+    text-decoration: none;
+    color: white;
+  }
+}

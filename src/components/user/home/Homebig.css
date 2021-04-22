@@ -1,0 +1,238 @@
+@media only screen and (min-width: 500px) {
+  html {
+    font-size: 16px;
+    width: 100%;
+  }
+  .border h4 {
+    font-size: xx-large;
+    text-align: center;
+  }
+  .cart_content {
+    margin: 5px 5px;
+    position: relative;
+    width: 210px;
+    height: 250px;
+    background: #fff;
+    overflow: hidden;
+  }
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .name_vendor {
+    color: #eaa28b;
+  }
+  .queenparty {
+    font-family: cursive;
+    text-align: center;
+    font-size: -webkit-xxx-large;
+  }
+  .gioithieu {
+    text-align: center;
+    font-size: medium;
+    margin-left: 15%;
+    width: 70%;
+  }
+  .vendor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 70%;
+    margin-left: 21%;
+  }
+
+  .avatar {
+    width: 330px;
+    height: 150px;
+  }
+  .slide_scroll {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(32, 32, 32, 0.2);
+  }
+
+  .slide_scroll img {
+    position: absolute;
+    /* top: calc(100% - 250px); */
+    z-index: 100;
+    width: 100%;
+    bottom: 0px;
+  }
+  .slide_text_centrer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    color: white;
+  }
+  .h2_text {
+    margin-top: 40px;
+    font-size: 80px;
+    text-shadow: 0 5px 0 rgba(0, 0, 0, 0.38);
+    font-family: "Sue Ellen Francisco", cursive;
+  }
+  .img-container {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 620px;
+    margin-left: -180px;
+  }
+
+  .img-container img {
+    width: 550px;
+    height: 360px;
+    transition: all 1s;
+    /** Tạo độ mượt **/
+  }
+
+  .img-container:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .disflex {
+    display: flex;
+    width: 100%;
+  }
+  .vendor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .datTiec {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+  }
+  .h4 {
+    margin-left: 100px;
+  }
+  .datTiecImg {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 400px;
+  }
+  .datTiecImg img {
+    width: 300px;
+    height: 200px;
+    transition: all 1s;
+  }
+  .datTiecImg:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .hr {
+    width: 40%;
+  }
+  .danhmuc {
+    font-size: medium;
+  }
+  .danhmuc ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 270px;
+    background-color: #ffffff;
+    border: #e1e1e1 solid 1px;
+  }
+  .danhmuc li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .danhmuc li a.active {
+    background-color: #eaa28b;
+    color: white;
+  }
+  .danhmuc li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .camket {
+    font-size: medium;
+  }
+  .camket ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 270px;
+    background-color: #ffffff;
+    border: #e1e1e1 solid 1px;
+  }
+  .camket li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .camket li a.active {
+    background-color: #eaa28b;
+    color: white;
+  }
+  .camket label {
+    font-size: medium;
+    margin-left: 15px;
+  }
+  .giatri {
+    font-size: medium;
+  }
+  .giatri ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 270px;
+    height: 300px;
+    background-color: #ffffff;
+    border: #e1e1e1 solid 1px;
+  }
+  .giatri li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .giatri li a.active {
+    background-color: #eaa28b;
+    color: white;
+  }
+  .giatri i {
+    margin-left: 15px;
+  }
+  .restaurant {
+    border: #e1e1e1 solid 1px;
+    width: 900px;
+    height: 160px;
+    margin-left: 65px;
+  }
+  .restaurant img {
+    width: 230px;
+    height: 130px;
+  }
+  .freeship {
+    margin-left: 200px;
+  }
+  .freeship button {
+    border: none;
+    width: 200px;
+    margin: 3px;
+    border-bottom: 1px solid #4fa4ff;
+  }
+  .freeship i {
+    color: #28a745;
+  }
+  .danhgia {
+    background-color: #eaa28b;
+  }
+  .menudm {
+    margin-left: -70px;
+  }
+  .nameRestaurant {
+    margin-left: 30px;
+  }
+}

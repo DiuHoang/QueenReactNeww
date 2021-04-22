@@ -1,0 +1,48 @@
+@media only screen and (min-width: 500px) {
+html{
+  width: 100%;
+  font-size: 16px;
+}
+.detaillFood{
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.detail_order{
+  border: 1px solid #8a8a8a;
+  margin-left: 4%;
+  border-radius: 10%;
+}
+.detail_order hr{
+  width: 600px;
+}
+.detail_order h1{
+  margin-left: 12%;
+}
+.detail_order_name{
+  display: flex;
+  width: 800px;
+  margin-left: 12%;
+  margin-top: 50px;
+}
+.detail-content{
+  margin-left: 5%;
+}
+.dat button{
+  border-radius: 20px;
+  background-color:#eaa28b ;
+  color: white;
+  width: 80px;
+  font-size: 17px;
+  height: 40px;
+  margin-left: 77%;
+  border: none;
+  margin-top: 2%;
+  border: 1px solid #8a8a8a;
+}
+.flex{
+  display: flex;
+}
+
+ 
+}

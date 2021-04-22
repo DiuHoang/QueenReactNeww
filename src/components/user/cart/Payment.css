@@ -1,0 +1,128 @@
+.contain {
+  width: 1650px;
+  margin-left: 135px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.gach {
+  color: #eaa28b;
+  height: 1px;
+  background-color: #eaa28b;
+  margin-top: 10px;
+  width: 1700px;
+}
+
+.flex-PM {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* width: 1400px;
+      margin-left: 70px; */
+}
+.enter {
+  margin-top: 80px;
+}
+
+.khungPayment {
+  border-radius: 20px;
+  border: ridge;
+  width: 800px;
+  border-color: #eaa28b;
+  height: 400px;
+}
+
+.flexKhung1 {
+  width: 680px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.margin {
+  margin: 35px;
+}
+
+.flexRadio {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment1 {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.btn-payment {
+  background-image: linear-gradient(130deg, #eb673c 0%, #ac7664 100%);
+  color: black;
+  border-color: #eb673c;
+  height: 33px;
+  width: 100px !important;
+  margin-left: 1550px;
+  font-size: 15px;
+}
+
+.btn-payment:hover {
+  color: white;
+}
+
+.flex-img {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -200px;
+  margin-top: -100px;
+}
+
+.ma {
+  margin-top: 100px;
+}
+
+.queen-payment {
+  font-family: Brush Script MT;
+  font-size: 40px;
+  color: #eaa28b;
+}
+
+.moTa {
+}
+
+@media only screen and (max-width: 500px) {
+  .flex-PM {
+    width: 300px;
+  }
+  .btn-payment {
+    margin-left: 5px;
+  }
+  .khungPayment {
+    width: 330px;
+    height: 500px;
+  }
+  .flex-img {
+    display: none;
+  }
+  .payment1 {
+    margin-top: -50px;
+  }
+  .gach {
+    width: 350px;
+    margin-left: -100px;
+  }
+  .flex-PM {
+    margin-left: -80px;
+  }
+  .banner {
+    margin-left: 60px;
+    margin-top: -80px;
+  }
+  .moTa {
+    display: none;
+  }
+  .queen-payment {
+    margin-left: 60px;
+  }
+  .flexKhung1 {
+    width: 330px;
+  }
+}

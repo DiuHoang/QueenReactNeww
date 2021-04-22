@@ -1,0 +1,54 @@
+@media only screen and (min-width: 500px) {
+.title-service {
+  color: #eaa28b;
+  margin-top: 30px;
+  font-size: 40px;
+  font-family: "Sue Ellen Francisco";
+  text-align: center;
+}
+.line1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+.line1 img {
+  width: 300px;
+}
+.intro {
+  display: flex;
+  margin-left: 12%;
+}
+.intro p {
+  padding-top: 10px;
+}
+.slide-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  border: 1px solid white;
+}
+.each-slide {
+  height: 600px;
+}
+.imageShow {
+  height: 200px;
+  width: 300px;
+}
+.title-line {
+  text-align: center;
+}
+.title-line h2 {
+  border-top: 1px solid black;
+  width: 60%;
+  margin-left: 350px;
+}
+.container_cart_content i{
+  text-align:'center';
+}
+.doan{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 75%;
+  margin-left: 13%;
+}
+}

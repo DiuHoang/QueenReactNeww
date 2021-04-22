@@ -1,0 +1,70 @@
+@media only screen and (max-width: 500px) {
+  .detail-content {
+    margin-left: 10%;
+  }
+  .detail-content button {
+    font-size: 1rem;
+  }
+  .detail-button button {
+    background-color: #eaa28b;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #4fa4ff;
+    font-size: 1rem;
+  }
+  .keHoach {
+    margin-left: 15px;
+  }
+  #myDIV {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+  }
+  #myDIV input {
+    border-radius: 10px;
+    width: 200px;
+    border: #898989 1px solid;
+  }
+  #myDIV button {
+    background-color: #eaa28b;
+    border-radius: 25px;
+    border: #898989 1px solid;
+    color: white;
+    margin-left: 10px;
+  }
+  .danhGia {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .danhGia input {
+    border-radius: 10px;
+    width: 400px;
+    border: #898989 1px solid;
+  }
+  .danhGia button {
+    background-color: #eaa28b;
+    border-radius: 25px;
+    border: #898989 1px solid;
+    color: white;
+    margin-left: 10px;
+  }
+  .container {
+    margin: auto;
+    width: 100%;
+  }
+  .detail_order {
+    border: 1px solid #939393;
+    width: 800px;
+    height: 500px;
+  }
+  .detailRestaurant {
+    width: 70%;
+  }
+  .detailRestaurant img {
+    margin-top: 10%;
+  }
+  .flex {
+    display: flex;
+    width: 170px;
+  }
+}

@@ -1,0 +1,9 @@
+.input-Search {
+  width: 250px;
+  height: 25px;
+}
+.btsearch {
+  height: 30px;
+  background-color: #eaa28b;
+  border: #eaa28b 1px solid;
+}

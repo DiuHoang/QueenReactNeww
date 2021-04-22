@@ -1,0 +1,119 @@
+@media only screen and (min-width: 500px) {
+.menudm{
+  margin-left: -70px;
+}
+.danhmuc{
+  font-size: medium;
+}
+.danhmuc ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 270px;
+  background-color:#ffffff;
+  border: #e1e1e1 solid 1px;
+}
+.danhmuc li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #e1e1e1;
+}
+.danhmuc li a.active {
+  background-color: #eaa28b;
+  color: white;
+}
+.danhmuc li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.camket{
+  font-size: medium;
+}
+.camket ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 270px;
+  background-color:#ffffff;
+  border: #e1e1e1 solid 1px;
+}
+.camket li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #e1e1e1;
+  
+}
+.camket li a.active {
+  background-color: #eaa28b;
+  color: white;
+}
+.camket label{
+  font-size: medium;
+  margin-left: 15px;
+}
+.giatri{
+  font-size: medium;
+}
+.giatri ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 270px;
+  height: 300px;
+  background-color:#ffffff;
+  border: #e1e1e1 solid 1px;
+}
+.giatri li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #e1e1e1;
+  
+}
+.giatri li a.active {
+  background-color: #eaa28b;
+  color: white;
+}
+.giatri i{
+  margin-left: 15px;
+}
+.restaurant{
+  border: #e1e1e1 solid 1px;
+  width: 900px;
+  height: 190px;
+  margin-left: 65px;
+}
+.restaurant img{
+  width: 250px;
+  height: 180px;
+}
+.freeship{
+  margin-top: 3%;
+  margin-left: 200px;
+}
+.freeship button{
+  border: none;
+  width: 200px;
+  margin: 3px;
+  height: 30px;
+  border-bottom: 1px solid #4fa4ff;
+}
+.freeship i{
+  color: #28a745;
+}
+.danhgia{
+  background-color: #eaa28b;
+}
+.nameRestaurant{
+  margin-left: 30px;
+}
+.restaurantpage{
+  margin-left: 21%;
+}
+
+}

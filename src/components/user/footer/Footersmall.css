@@ -1,0 +1,7 @@
+@media only screen and (max-width: 500px) {
+  .footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+}

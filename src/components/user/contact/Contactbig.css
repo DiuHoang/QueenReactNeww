@@ -1,0 +1,81 @@
+@media only screen and (min-width: 500px) {
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 180px;
+  margin-right: 200px;
+}
+
+.flex-container > div {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: 1px solid #d4d4d4;
+}
+.flex-container h4{
+  line-height: 1;
+}
+.left-box {
+  padding: 50px;
+  width: 300px;
+}
+.infor {
+  margin-left: 20px;
+  
+}
+.infor h4 {
+  color: rgb(58, 56, 56);
+  text-align: left;
+}
+.contact-form {
+  text-align: left;
+  margin-left: 30px;
+}
+.contact-form input,
+textarea {
+  width: 95%;
+  border: 1px solid #d4d4d4;
+  border-radius: 15px;
+  font-size: 3px;
+ 
+}
+.contact-form textarea{
+  height: 260px;
+}
+.text-area{
+  font-size: 16px;
+}
+.contact-form input,
+textarea,
+textarea,
+input::-webkit-input-placeholder {
+  font-size: medium;
+  line-height: 3;
+  padding-left: 5px;
+}
+.contact-form button {
+  border: 1px solid #d4d4d4;
+  border-radius: 25px;
+  margin-left: 45%;
+  width: 100px;
+  background-color: #eaa28b;
+}
+.button-contact{
+  border-radius: 20px;
+  background-color:#eaa28b ;
+  color: white;
+  width: 20px;
+  font-size: 17px;
+  height: 40px;
+}
+.button-contact h4{
+  margin: 5%;
+}
+}

@@ -1,0 +1,46 @@
+*{
+padding: 0px;
+margin: 0px;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.register-form{
+    width: 100%;
+    max-width: 400px;
+    margin: 15% auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+}
+h1{
+    color: #444;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.form-check{
+    margin-left: 25%;
+}
+.form-check h6{
+    margin-left: -8%;
+    margin-bottom: 2%;
+}
+.btn-box{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-box button{
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color:#eaa28b;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
